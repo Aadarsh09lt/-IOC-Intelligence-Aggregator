@@ -17,21 +17,21 @@ Installation
 
 1. Install Python dependencies:
 
-     pip install -r requirements.txt
+pip install -r requirements.txt
 
 2. Set API keys as environment variables (optional but recommended):
 
-     export VT_API_KEY="your_virustotal_key"
-     export ABUSEIPDB_API_KEY="your_abuseipdb_key"
-     export OTX_API_KEY="your_otx_key"         
+export VT_API_KEY="your_virustotal_key"
+export ABUSEIPDB_API_KEY="your_abuseipdb_key"
+export OTX_API_KEY="your_otx_key"         
 
-   Without API keys, the tool still performs WHOIS, DNS, SSL, ASN,
-   geolocation, and infrastructure classification lookups.
+Without API keys, the tool still performs WHOIS, DNS, SSL, ASN,
+geolocation, and infrastructure classification lookups.
 
-   Free API keys:
-VirusTotal   https://www.virustotal.com/gui/join-us
-AbuseIPDB    https://www.abuseipdb.com/register
-OTX          https://otx.alienvault.com/accounts/signup
+Free API keys:
+-VirusTotal   https://www.virustotal.com/gui/join-us
+-AbuseIPDB    https://www.abuseipdb.com/register
+-OTX          https://otx.alienvault.com/accounts/signup
 
 Usage
 -----
