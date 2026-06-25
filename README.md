@@ -1,4 +1,4 @@
-# -IOC-Intelligence-Aggregator
+
 IOC Intelligence Aggregator
 ===========================
 
